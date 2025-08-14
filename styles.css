@@ -56,8 +56,13 @@ html{
     overflow-x: hidden;
 }
 
+body{
+    overflow: hidden !important;
+    width: 100vw;
+}
+
 html.no-scroll{
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .sidebar-container{
@@ -94,7 +99,7 @@ STYLES
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .hero::before{
@@ -193,7 +198,7 @@ STYLES
     z-index: 100;
     right: 0;
     padding: 2em;
-    height: 100vh;
+    height: 100%;
     width: 40vw;
     min-width: 320px;
     display: grid;
@@ -417,7 +422,6 @@ STYLES
     background-color: #272727;
     overflow: hidden;
     position: relative;
-    z-index: 1;
 }
 
 h2{
