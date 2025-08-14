@@ -53,10 +53,15 @@ Basic Reset
 html{
     scroll-behavior: smooth;
     position: relative;
+    overflow-x: hidden;
 }
 
 html.no-scroll{
     overflow: hidden;
+}
+
+.sidebar-container{
+    width: 100%;
 }
 
 .overlay-sidebar{
@@ -411,6 +416,8 @@ STYLES
     padding-top: 3em;
     background-color: #272727;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
 
 h2{
