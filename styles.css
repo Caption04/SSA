@@ -94,7 +94,7 @@ STYLES
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .hero::before{
